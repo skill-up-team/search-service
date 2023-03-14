@@ -12,7 +12,7 @@ public class SearchController {
 
     @GetMapping()
     public String getTestMessage() {
-       throw new RuntimeException("test exception");
+       return "hello world";
     }
 
     @PostMapping
